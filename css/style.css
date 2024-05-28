@@ -1,0 +1,31 @@
+
+#menu{
+    background-color: olive;
+    
+}
+
+
+@keyframes movimiento1 {
+    0%   {left:0px; top:0px;}
+    20%  {left:200px; top:0px;}
+    40%  {left:200px; top:200px;}
+    60%   {left:-200px; top:200px;}
+    80%   {left:-200px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+section{
+  margin: auto;
+  text-align: center;
+}
+.sect1{
+    height: 400px;
+}
+.robot1{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: movimiento1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
